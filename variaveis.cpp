@@ -1,5 +1,6 @@
 #include <iostream>
-
+using namespace std;
+#define PRECO 1.99
 /*
     int: inteiros
     char: caracteres
@@ -7,11 +8,13 @@
 */
 
 int main(){
-    int pera;
-    char qualidade;
-    float peso;
+    int pera = 3;
+    char qualidade = 'A';
+    float peso = 2.5;
+    
+    cout << "Existem " << pera << " peras  qualidade " << qualidade
+    << " pesando " << peso << " quilos " << endl;
 
-    pera = 3;
-    qualidade = 'A';
-    peso = 0.6453;
+    cout << "O preco por quilo eh R$" << PRECO 
+    << ", o total eh R$" << peso * PRECO << endl;
 }
