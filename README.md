@@ -1,3 +1,3 @@
 # CPP
-### Estudando a linguagem do básico ao avançando
+### Estudando a linguagem C++ do básico ao avançando
 
